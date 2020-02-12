@@ -18,9 +18,9 @@ steps:
     version: '$(dotnetSdkVersion)'
 
 - task: UseDotNet@2
-  displayName: 'Use .NET Core SDK 2.x for SonarCloud'
+  displayName: 'Use .NET Core SDK 6.12.0 for SonarCloud'
   inputs:
-    version: '2.x'
+    version: '6.12.0'
 
 - task: Npm@1
   displayName: 'Run npm install'
